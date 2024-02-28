@@ -16,12 +16,12 @@ test.describe('homepage', () => {
         projectKey: "homepage"
       },
     });
-    if (!fs.existsSync("build/reports/accessibility-report.html")) {
-      fs.mkdirSync("build/reports", {
-        recursive: true,
-      });
-    }
-    fs.writeFileSync("build/reports/accessibility-report.html", reportHTML);
-    exec('start build/reports/accessibility-report.html');
+    // if (!fs.existsSync("build/reports/accessibility-report.html")) {
+    //   fs.mkdirSync("build/reports", {
+    //     recursive: true,
+    //   });
+    // }
+    // fs.writeFileSync("build/reports/accessibility-report.html", reportHTML);
+    // exec('start build/reports/accessibility-report.html');
   })
 });
